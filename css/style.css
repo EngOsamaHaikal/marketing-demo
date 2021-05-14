@@ -1,0 +1,94 @@
+body{
+  margin:0;
+  padding:0;
+  background: #333;
+  width: 100%;
+}
+
+
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.9;
+}
+#home-section {
+  background: url(../images/header-img.jpg);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 600px;
+  
+  background-size: 100% 100% ;
+   position: relative;
+    width: 100%;
+    display: inline-flex;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 600px;
+  background: rgba(33, 33, 33, 0.6);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+
+#home-section .fas {
+  color: #484848;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.menu-item {
+  letter-spacing: 1px;
+  color: #eee;
+  transition: color .5s;
+}
+
+
+.card-header:hover{
+  cursor: pointer;
+}
+
+
+#dtail-page #home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('https://mdbootstrap.com/img/Photos/Others/photo9.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#dtail-page #home-heading .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 768px) {
+  
+  .mb-resp {
+    margin-bottom: 1rem; } }
+
+@media (max-width:325px){
+  
+    .container{
+      width:fit-content;
+    }
+  
+  video{
+    height:400px;
+  }
+
+}

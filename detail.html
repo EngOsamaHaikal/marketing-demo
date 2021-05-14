@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing | Al-Qutami DM</title>
+    <link rel="icon" type="image/jpg" href="images/logo-qutami.jpg">
+
+    <meta
+        content="نقدم خدمات احترافية عديدة في التسويق الإلكتروني كبناء مواقع الكترونية جذابة ومتاجر الكترونية محترفة , ادارة لحسابات السوشال ميديا ورفع المستوى التفاعلي وجلب المزيد من المتابعين والزبائن Al-Qutami DM "
+        name="description">
+    <meta content="Marketing | Al-Qutami DM" name="keywords">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <!-- end Bootstrap css -->
+    <link rel="stylesheet" href="css/style.css">
+<style>
+    
+.blog {
+  padding: 40px 0 20px 0;
+}
+
+.blog .entry {
+  padding: 30px;
+  margin-bottom: 60px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blog .entry .entry-img {
+  max-height: 400px;
+  margin: -30px -30px 20px -30px;
+  overflow: hidden;
+}
+
+.blog .entry .entry-title {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.blog .entry .entry-title a {
+  color: #111111;
+  transition: 0.3s;
+}
+
+.blog .entry .entry-title a:hover {
+  color: #e03a3c;
+}
+
+.blog .entry .entry-meta {
+  margin-bottom: 15px;
+  color: #777777;
+}
+
+.blog .entry .entry-meta ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog .entry .entry-meta ul li + li {
+  padding-left: 20px;
+}
+
+.blog .entry .entry-meta i {
+  font-size: 14px;
+  padding-right: 4px;
+}
+
+.blog .entry .entry-meta a {
+  color: #5e5e5e;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1;
+}
+
+.blog .entry .entry-content p {
+  line-height: 24px;
+}
+
+.blog .entry .entry-content .read-more {
+  -moz-text-align-last: right;
+  text-align-last: right;
+}
+
+.blog .entry .entry-content .read-more a {
+  display: inline-block;
+  background: #e03a3c;
+  color: #fff;
+  padding: 6px 20px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.blog .entry .entry-content .read-more a:hover {
+  background: #e65d5f;
+}
+
+.blog .entry .entry-content h3 {
+  font-size: 22px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.blog .entry .entry-content blockquote {
+  overflow: hidden;
+  background-color: #fafafa;
+  padding: 60px;
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.blog .entry .entry-content blockquote p {
+  color: #444444;
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.blog .entry .entry-content blockquote .quote-left {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 36px;
+  color: #e7e7e7;
+}
+
+.blog .entry .entry-content blockquote .quote-right {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 36px;
+  color: #e7e7e7;
+}
+
+.blog .entry .entry-content blockquote::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #111111;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog .entry .entry-footer {
+  padding-top: 10px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.blog .entry .entry-footer i {
+  color: #5e5e5e;
+  display: inline;
+}
+
+.blog .entry .entry-footer a {
+  color: #8b8b8b;
+  transition: 0.3s;
+}
+
+.blog .entry .entry-footer a:hover {
+  color: #e03a3c;
+}
+
+.blog .entry .entry-footer .cats {
+  list-style: none;
+  display: inline;
+  padding: 0 20px 0 0;
+  font-size: 14px;
+}
+
+.blog .entry .entry-footer .cats li {
+  display: inline-block;
+}
+
+.blog .entry .entry-footer .tags {
+  list-style: none;
+  display: inline;
+  padding: 0;
+  font-size: 14px;
+}
+
+.blog .entry .entry-footer .tags li {
+  display: inline-block;
+}
+
+.blog .entry .entry-footer .tags li + li::before {
+  padding-right: 6px;
+  color: #6c757d;
+  content: ",";
+}
+
+.blog .entry .entry-footer .share {
+  font-size: 16px;
+}
+
+.blog .entry .entry-footer .share i {
+  padding-left: 5px;
+}
+
+.blog .entry-single {
+  margin-bottom: 30px;
+}
+
+.blog .blog-author {
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blog .blog-author img {
+  width: 120px;
+}
+
+.blog .blog-author h4 {
+  margin-left: 140px;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.blog .blog-author .social-links {
+  margin: 0 0 5px 140px;
+}
+
+.blog .blog-author .social-links a {
+  color: #777777;
+}
+
+.blog .blog-author p {
+  margin-left: 140px;
+  font-style: italic;
+  color: #b7b7b7;
+}
+
+.blog .blog-comments {
+  margin-bottom: 30px;
+}
+
+.blog .blog-comments .comments-count {
+  font-weight: bold;
+}
+
+.blog .blog-comments .comment {
+  margin-top: 30px;
+  position: relative;
+}
+
+.blog .blog-comments .comment .comment-img {
+  width: 50px;
+}
+
+.blog .blog-comments .comment h5 {
+  margin-left: 65px;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.blog .blog-comments .comment h5 a {
+  font-weight: bold;
+  color: #444444;
+  transition: 0.3s;
+}
+
+.blog .blog-comments .comment h5 a:hover {
+  color: #e03a3c;
+}
+
+.blog .blog-comments .comment h5 .reply {
+  padding-left: 10px;
+  color: #111111;
+}
+
+.blog .blog-comments .comment time {
+  margin-left: 65px;
+  display: block;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 5px;
+}
+
+.blog .blog-comments .comment p {
+  margin-left: 65px;
+}
+
+.blog .blog-comments .comment.comment-reply {
+  padding-left: 40px;
+}
+
+.blog .blog-comments .reply-form {
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blog .blog-comments .reply-form h4 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.blog .blog-comments .reply-form p {
+  font-size: 14px;
+}
+
+.blog .blog-comments .reply-form input {
+  border-radius: 4px;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+.blog .blog-comments .reply-form input:focus {
+  box-shadow: none;
+  border-color: #ee9293;
+}
+
+.blog .blog-comments .reply-form textarea {
+  border-radius: 4px0;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.blog .blog-comments .reply-form textarea:focus {
+  box-shadow: none;
+  border-color: #ee9293;
+}
+
+.blog .blog-comments .reply-form .form-group {
+  margin-bottom: 25px;
+}
+
+.blog .blog-comments .reply-form .btn-primary {
+  border-radius: 4px;
+  padding: 8px 20px;
+  border: 0;
+  background-color: #111111;
+}
+
+.blog .blog-comments .reply-form .btn-primary:hover {
+  background-color: #e03a3c;
+}
+
+.blog .blog-pagination {
+  color: #444444;
+}
+
+.blog .blog-pagination ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.blog .blog-pagination li {
+  border: 1px solid white;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.blog .blog-pagination li.active {
+  background: white;
+}
+
+.blog .blog-pagination li a {
+  color: #aaaaaa;
+  padding: 7px 16px;
+  display: inline-block;
+}
+
+.blog .blog-pagination li.active, .blog .blog-pagination li:hover {
+  background: #e03a3c;
+  border: 1px solid #e03a3c;
+}
+
+.blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
+  color: #fff;
+}
+
+.blog .blog-pagination li.disabled {
+  background: #fff;
+  border: 1px solid white;
+}
+
+.blog .blog-pagination li.disabled i {
+  color: #f1f1f1;
+  padding: 10px 16px;
+  display: inline-block;
+}
+
+
+</style>
+
+</head>
+
+<body class="bg-light">
+
+    <!-- start header -->
+
+<!-- start nav -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <div class="container">
+        <a href="base.html" class="navbar-brand">
+            Qutami-Marketing
+        </a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="m-2 nav-item ">
+                    <a href="base.html" class="nav-link menu-item ">Home</a>
+                </li>
+                <li class="m-2 nav-item">
+                    <a href="services.html" class="nav-link menu-item ">Services</a>
+                </li>
+                <li class="m-2 nav-item">
+                    <a href="blog.html" class="nav-link menu-item active">Blog</a>
+                </li>
+                <li class="m-2 nav-item">
+                    <a href="contact.html" class="nav-link menu-item">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- start end -->
+
+
+    <!-- end header-->
+<!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog" style="padding-top:135px;">
+      <div class="container" data-aos="fade-up">
+       
+
+            <article class="entry entry-single">
+
+              <div class="entry-img">
+                <img src="images/blog-recent-4.jpg"  class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="detail.html">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-inline align-self-start"><i class="fa fa-user m-1" aria-hidden="true"></i><a href="blog-single.html">Osama Haikal</a></li>
+                  <li class="d-inline align-self-end"><i class="fa fa-clock m-1" aria-hidden="true"></i><a href="blog-single.html"><time datetime="2021-10-5">Jan 1, 2020</time></a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias minus, autem accusantium nesciunt quidem animi.
+                </p>
+
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, repellendus dolorum! Accusamus beatae ipsa, consequatur ratione nostrum ab quos doloribus!
+                </p>
+
+                <blockquote>
+                  <i class="icofont-quote-left quote-left"></i>
+                  <p>
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis voluptatem ipsam iusto!
+                  </p>
+                  <i class="las la-quote-right quote-right"></i>
+                  <i class="icofont-quote-right quote-right"></i>
+                </blockquote>
+
+                <p>
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum autem porro incidunt expedita maxime! Nostrum esse sequi, vero non modi illum fugit earum sunt optio nobis quisquam laudantium qui cum itaque dolores, nemo tempora sit.
+                </p>
+
+                <h3>Lorem ipsum dolor sit amet consectetur..</h3>
+                <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci impedit neque voluptas deserunt perspiciatis provident!
+                </p>
+
+               
+            
+              </div>
+
+              <div class="entry-footer clearfix">
+                <div class="float-left">
+                  <i class="icofont-folder"></i>
+                  <ul class="cats">
+                    <li><a href="#">Business</a></li>
+                  </ul>
+
+                  <i class="icofont-tags"></i>
+                  <ul class="tags">
+                    <li><a href="#">Marketing</a></li>
+                  </ul>
+                </div>
+
+                <div class="float-right share">
+                <ul class="list-inline">
+                    <a href="#">
+                        <li class="list-inline-item p-1"><i class="fab fa-facebook-square text-dark"></i></li>
+                    </a>
+                    <a href="#">
+                        <li class="list-inline-item p-1"><i class="fab fa-instagram text-dark"></i></li>
+                    </a>
+                    <a href="#">
+                        <li class="list-inline-item p-1"><i class="fab fa-twitter text-dark"></i></li>
+                    </a>
+                </ul>
+                </div>
+
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <div class="blog-comments">
+
+              <h4 class="comments-count">2 Comments</h4>
+
+              <div id="comment-1" class="comment clearfix">
+                <img src="images/profile.png" class="comment-img  float-left" alt="">
+
+                <h5><a href="">Georgia Reader</a> <a href="#" class="reply"><i class="icofont-reply"></i> Reply</a></h5>
+                <time datetime="2020-01-01">01 Jan, 2020</time>
+                <p>
+                  Et rerum totam nisi. Molestiae vel quam dolorum vel voluptatem et et. Est ad aut sapiente quis molestiae est qui cum soluta.
+                  Vero aut rerum vel. Rerum quos laboriosam placeat ex qui. Sint qui facilis et.
+                </p>
+              </div><!-- End comment #1 -->
+
+              <div id="comment-2" class="comment clearfix">
+                <img src="images/profile.png" class="comment-img  float-left" alt="">
+
+                <h5><a href="">Aron Alvarado</a> <a href="#" class="reply"><i class="icofont-reply"></i> Reply</a></h5>
+                <time datetime="2020-01-01">01 Jan, 2020</time>
+                <p>
+                  Ipsam tempora sequi voluptatem quis sapiente non. Autem itaque eveniet saepe. Officiis illo ut beatae.
+                </p>
+
+              </div><!-- End comment #2-->
+            <div class="reply-form">
+                <h4>Leave a Reply</h4>
+                <p>Your email address will not be published. Required fields are marked * </p>
+                <form action="">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input name="name" type="text" class="form-control" placeholder="Your Name*">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input name="email" type="text" class="form-control" placeholder="Your Email*">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col form-group">
+                            <input name="website" type="text" class="form-control" placeholder="Your Website">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col form-group">
+                            <textarea name="comment" class="form-control" placeholder="Your Comment*"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Post Comment</button>
+            
+                </form>
+            
+            </div>
+            
+            </div><!-- End blog comments -->
+
+            </div><!-- End blog entries list -->
+    
+</div>
+   
+        </div><!-- End blog sidebar -->
+
+         </div>
+
+      </div>
+
+</section><!-- End Blog Single Section -->
+
+    <!-- footer -->
+    <footer class="bg-dark px-5">
+        <div class="container-fluid">
+            <div class="row text-light py-4">
+                <div class="col-lg-4 col-sm-6">
+                    <h5 class="pb-3">About Us</h5>
+                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nobis dicta
+                        molestiae
+                        id laboriosam natus repudiandae, ducimus illum veritatis perspiciatis possimus, at facere
+                        debitis
+                        accusantium?</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h5 class="pb-3">Visit Us</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="footer-link text-info">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link text-info">Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link text-info">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link text-info">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h5 class="pb-3">Need Help?</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="footer-link text-uppercase text-info">Customer Service</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link text-uppercase text-info">Online meeting</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <h5 class="pb-3">Keep Contact</h5>
+                    <a href="#" class="text-info">contact@qutami-marketing.com</a>
+                    <form class="my-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email Address">
+                            <div class="input-group-append">
+                                <button type="button"
+                                    class="btn bg-info text-white text-uppercase font-weight-bold">Sign
+                                    Up</button>
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="list-inline">
+                        <a href="#">
+                            <li class="list-inline-item p-1"><i class="fab fa-facebook-square fa-2x text-info"></i></li>
+                        </a>
+                        <a href="#">
+                            <li class="list-inline-item p-1"><i class="fab fa-instagram fa-2x text-info"></i></li>
+                        </a>
+                        <a href="#">
+                            <li class="list-inline-item p-1"><i class="fab fa-twitter fa-2x text-info"></i></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center text-light border-top pt-3">
+                    <p>&copy; 2021 Copyright, All Rights Reserved </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!--  js files -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+</body>
+
+</html>
